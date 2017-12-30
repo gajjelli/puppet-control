@@ -33,5 +33,7 @@ mod 'role',
   :ref => 'master'
 
 mod 'profile',
-  :git => 'git@github.com:gajjelli/puppet-profile.git',
+  :git => 'https://github.com/gajjelli/puppet-profile.git',
   :ref => 'master'
+
+
