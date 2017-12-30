@@ -29,9 +29,9 @@ mod 'ntp',
   :git => 'https://github.com/gajjelli/puppet-ntp.git',
   :ref => 'master'
 
-mod 'role',
-  :git => 'https://github.com/gjjelli/puppet-role.git',
-  :ref => 'master'
+#mod 'role',
+#  :git => 'https://github.com/gjjelli/puppet-role.git',
+#  :ref => 'master'
 
 mod 'profile',
   :git => 'git@github.com:gajjelli/puppet-profile.git',
