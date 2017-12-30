@@ -20,19 +20,18 @@ mod "garethr/docker",	'5.3.0'
 #  :branch => 'docs_experiment'
 
 
-
 mod 'ssh',
- :git => 'https://github.com/gajjelli/puppet-ssh.git',
- :ref => 'production'
+  :git => 'https://github.com/gajjelli/puppet-ssh.git'
+  :ref => 'master'
 
 mod 'ntp',
- :git => 'https://github.com/gajjelli/puppet-ntp.git',
- :ref => 'production'
+  :git => 'https://github.com/gajjelli/puppet-ntp.git,'
+  :ref => 'master'
 
 mod 'role',
- :git => 'https://github.com/gajjelli/puppet-role.git',
- :ref => 'production'
+  :git => 'https://github.com/gajjelli/puppet-role.git',
+  :ref => 'master'
 
 mod 'profile',
- :git => 'https://github.com/gajjelli/puppet-profile.git',
- :ref => 'production'
+  :git => 'git@github.com:gajjelli/puppet-profile.git',
+  :ref => 'master'
